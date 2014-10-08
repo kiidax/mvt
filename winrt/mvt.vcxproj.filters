@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\mvt\console.c" />
+    <ClCompile Include="..\mvt\misc.c" />
+    <ClCompile Include="..\mvt\session.c" />
+    <ClCompile Include="..\mvt\telnet.c" />
+    <ClCompile Include="..\mvt\terminal.c" />
+    <ClCompile Include="..\mvt\mvt_d2d.cpp" />
+    <ClCompile Include="..\mvt\pipe.c" />
+    <ClCompile Include="..\mvt\iconv.c" />
+    <ClCompile Include="..\mvt\wcswidth.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\mvt\debug.h" />
+    <ClInclude Include="..\mvt\misc.h" />
+    <ClInclude Include="..\mvt\mvt.h" />
+    <ClInclude Include="..\mvt\mvt_plugin.h" />
+    <ClInclude Include="..\mvt\private.h" />
+    <ClInclude Include="..\mvt\mvt_d2d.h" />
+    <ClInclude Include="..\mvt\driver.h" />
+  </ItemGroup>
+</Project>
